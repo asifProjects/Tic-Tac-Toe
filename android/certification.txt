@@ -1,0 +1,20 @@
+---------------------------------------------------
+Here are the ownership and the certification details
+of the Tic-Tac-Toe 1.0
+---------------------------------------------------
+
+app_name - 						Tic-Tac-Toe
+app_alias - 					tictactoe
+app_author_name - 				Asif
+app_author_organizational - 	Asif
+app_author_organization - 		Asif
+app_author_locality - 			Asif
+app_author_state - 				Telangana
+app_author_country - 			India
+app_password - 					RAlk2IaeLrGQ
+app_versionName - 				versionName "1.0"
+app_versionCode - 				100
+
+
+---------------------------------------------------
+

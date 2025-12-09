@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tic-Tac-Toe — Bot & Theme</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container" id="app">
+    <header>
+      <div class="title">
+        <div class="logo">TTT</div>
+        <div>
+          <h1>Tic-Tac-Toe</h1>
+          <p class="subtitle">CPU Bot + Light/Dark Mode</p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button class="btn" id="undoBtn">Undo</button>
+        <button class="btn" id="resetBtn">Reset</button>
+        <button class="btn primary" id="newRound">New Round</button>
+        <button class="btn" id="themeBtn">🌙</button>
+      </div>
+    </header>
+
+    <section class="game">
+      <div class="board-wrap">
+        <div class="board" id="board"></div>
+      </div>
+
+      <aside class="panel">
+        <div>
+          <div class="status" id="status">Player X's turn</div>
+        </div>
+
+        <div class="scores">
+          <div class="score-card"><div class="label">Player X</div><div class="value" id="scoreX">0</div></div>
+          <div class="score-card"><div class="label">Ties</div><div class="value" id="scoreT">0</div></div>
+          <div class="score-card"><div class="label">Player O</div><div class="value" id="scoreO">0</div></div>
+        </div>
+
+        <div>
+          <label class="muted">Play mode</label>
+          <select id="mode" class="select">
+            <option value="pvp">Player vs Player</option>
+            <option value="easy">Easy Bot</option>
+            <option value="impossible">Impossible Bot</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="muted">Starting player</label>
+          <div style="display:flex;gap:8px;margin-top:8px">
+            <button class="btn" id="startX">X</button>
+            <button class="btn" id="startO">O</button>
+            <button class="btn" id="startRandom">Random</button>
+          </div>
+        </div>
+
+        <footer>
+          <div class="muted">v2.0 — Bot & Theme</div>
+        </footer>
+      </aside>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
